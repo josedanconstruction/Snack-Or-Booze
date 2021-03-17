@@ -9,6 +9,7 @@ import Menu from "./MenuHook";
 import Item from "./ItemHook";
 import AddItemForm from "./AddItemForm";
 import { v4 as uuid } from "uuid";
+import My404 from "./my404";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -78,7 +79,7 @@ function App() {
             </Route>
 
             <Route>
-              <p>Hmmm. I can't seem to find what you want.</p>
+              <My404 />
             </Route>
           </Switch>
         </main>
