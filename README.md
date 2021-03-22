@@ -1,14 +1,16 @@
 # Snack-Or-Booze
 
-##Description
+## Description
+
 It is the assessment for springboard react. It is a cafe page which can show the food items, snack items.
 
-##Starting Up
+## Starting Up
+
 Run npm i to install the dependencies and npm start to start the server.
 The front end code will be available at http://localhost:3000
 The back end code will be avialble at http://localhost:5000.
 
-##Tasks
+## Tasks
 
 - The homepage should show the # of food items (“snacks”) and drink choices (“drinks”)
 - The navbar should add a new link, “Drinks”, leading to a page listing the drinks — just like the “Snacks” link leads to a page listing food items.
@@ -17,7 +19,8 @@ The back end code will be avialble at http://localhost:5000.
 - add a page that lets site users add either a drink or a snack.
 - Make sure there is a 404 page.
 
-##Preview
+## Preview
+
 HomePage
 ![Homepage](images/homepage.png)
 Snacks route, it lists the snacks and you can open for snack description.
@@ -31,14 +34,10 @@ You can check the successful addded item and view the description.
 When you check an unexisting route, it will show a customzied 404 page.
 ![Homepage](images/custom404.png)
 
-##Code design
+## Code design
+
 - There are two hooks: One is itemHook, which uses for displaying specific item details.( drinks for snacks).
-Another is menu hook: It is designed for displaying the menu (show the list of items).
+  Another is menu hook: It is designed for displaying the menu (show the list of items).
 - The navbar render the homepage nav links.
 - The add item form is for adding items and it is herited add function from parent App.js.
 - App.js has the main nav bar and it is the whole parent of all the the components. You also can find browswer routes definitions there.
-
-
-
-
-
