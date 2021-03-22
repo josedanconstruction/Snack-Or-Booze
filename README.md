@@ -19,4 +19,26 @@ The back end code will be avialble at http://localhost:5000.
 
 ##Preview
 HomePage
-![Homepage](../images/homepage.png)
+![Homepage](images/homepage.png)
+Snacks route, it lists the snacks and you can open for snack description.
+![snack](images/snack.png)
+You can open a add a item form by the end.
+![Homepage](images/item.png)
+You can check the successful addded item and view the description.
+![Homepage](images/items.png)
+![Homepage](images/additemdes.png)
+
+When you check an unexisting route, it will show a customzied 404 page.
+![Homepage](images/custom404.png)
+
+##Code design
+- There are two hooks: One is itemHook, which uses for displaying specific item details.( drinks for snacks).
+Another is menu hook: It is designed for displaying the menu (show the list of items).
+- The navbar render the homepage nav links.
+- The add item form is for adding items and it is herited add function from parent App.js.
+- App.js has the main nav bar and it is the whole parent of all the the components. You also can find browswer routes definitions there.
+
+
+
+
+
