@@ -1,6 +1,6 @@
 # Snack-Or-Booze
 
-http://boundless-church.surge.sh/
+https://snack-or-booze-menu.herokuapp.com/
 
 ## Description
 
