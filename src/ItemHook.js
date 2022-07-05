@@ -1,6 +1,9 @@
 import React from "react";
 import { Redirect, useParams } from "react-router-dom";
-import { Card, CardBody, CardTitle, CardText } from "reactstrap";
+import { Card,
+  CardBody,
+  CardTitle,
+  CardText } from "reactstrap";
 /*The item can be drinks or snacks*/
 
 function Item({ items, cantFind }) {
@@ -16,12 +19,15 @@ function Item({ items, cantFind }) {
           <CardTitle className="font-weight-bold text-center">
             {item.name}
           </CardTitle>
-          <CardText className="font-italic">{item.description}</CardText>
+          <CardText className="font-italic">{item.address}</CardText>
           <p>
-            <b>Recipe:</b> {item.recipe}
+            <b>Permits:</b> {item.permitTypes}
           </p>
           <p>
-            <b>Serve:</b> {item.serve}
+            <b>Description:</b> {item.description}
+          </p>
+          <p>
+            <b>Phone:</b> {item.ownerPhone}
           </p>
         </CardBody>
       </Card>

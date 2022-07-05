@@ -23,12 +23,12 @@ function Menu({ items, title }) {
             {title} Menu
           </CardTitle>
           <CardText>
-            {title} are work for you. Pick a project you like! Enjoy!
+            {title} are looking for you. Pick a company you like! Enjoy!
           </CardText>
           <ListGroup>
             {items.map((item) => (
               <Link to={`/${linkName}/${item.id}`} key={item.id}>
-                <ListGroupItem>{item.id}{item.address}</ListGroupItem>
+                <ListGroupItem>{item.primaryCompany}</ListGroupItem>
               </Link>
             ))}
 

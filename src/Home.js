@@ -8,7 +8,7 @@ function Home() {
         <CardBody className="text-center">
           <CardTitle>
             <h3 className="font-weight-bold">
-              Welcome to Silicon Valley's premier dive cafe!
+              Welcome to Boulder's dating app for contractors!
             </h3>
           </CardTitle>
         </CardBody>
